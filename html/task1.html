@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络安全C4期课程</title>
+    <style>
+    .text{
+        text-align: center;
+    }
+</style>
+</head>
+<body bgcolor="#FFF8DC">
+<!-- <body bgcolor="blue"> -->
+    
+    <!-- bgcolor：调整颜色；blue：蓝色 -->
+    <p class="text">
+        <a class="text" href="https://www.magedu.com/">
+        <!-- 超链接，链接至马哥教育官网 -->
+            <img class="text" src="http://www.lxrcl.top/images/logo@2x.png" title="马哥教育" >
+            <!-- 
+            img图片，src：图片地址，此处引用为网络链接（绝对路径）
+            如要引用本地图片
+            linux：/root/img/1.png & 1.png（图片与当前项目文件同属一个目录下时）
+            windows：C:\Users\admin\1.png & 1.png（图片与当前项目文件同属一个目录下时
+            title：鼠标悬停时时显示“马哥教育”
+            -->
+        </a>
+    </p>
+    <!-- 超链接内包涵img图片，相当于把图片当做超链接的显示内容 -->
+    <h3 class="text">&lt;登录页面&gt;</h3>
+    <!-- <h3><登录页面></h3> -->
+    <!-- 标题，&lt;实体标签<，&gt;实体标签>，此处直接使用<>也可直接显示，但不清楚实际考察内容，所以写了两种-->
+    <hr>
+    <!-- 分割线 -->
+    <p class="text">
+    <!-- 分段 -->
+    账号：<input type="text" value="admin">
+    <!-- input：输入，type="text"，类型为默认类型 value。默认填充内容 -->
+    </p>
+    <p class="text">
+    密码：<input type="password">
+    <!-- password 密码形输入框，text会直接显示明文输入，password会把输入内容显示为小圆点，但如果在页面保存密码，还是不太安全 -->
+    </p>
+    <p class="text">
+        <a href="http://www.lxrcl.top">
+            <input type="button" value="登录">
+            <!-- button：普通按钮 value填充内容 -->
+        </a>
+        <a href="http://www.lxrcl.top">
+            <input type="button" value="注册">
+        </a>
+    </p>
+</body>
+</html>
